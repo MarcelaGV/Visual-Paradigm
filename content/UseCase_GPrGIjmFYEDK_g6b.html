@@ -101,8 +101,8 @@ Properties			</td>
 <span class="TableContent Documentation"><head>
     
   </head>
-  <body style="color:#000000;margin-right:0;font-weight:normal;margin-left:0;font-size:12px;font-family:Dialog;">
-    <p style="margin-bottom:.0001pt;margin-right:0pt;margin-left:0pt;margin-top:0pt;">
+  <body style="margin-left:0;color:#000000;margin-right:0;font-weight:normal;font-size:12px;font-family:Dialog;">
+    <p style="margin-left:0pt;margin-right:0pt;margin-bottom:.0001pt;margin-top:0pt;">
       El sistema permite a los usuarios autenticarse mediante credenciales, 
       validando su informaci&#243;n y otorgando acceso seg&#250;n su rol.
     </p>
@@ -576,7 +576,7 @@ Administrador			</td>
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">3.</span> El usuario selecciona la opción "Soy parte de NaiApp"</span>			</td>
+<span class="TableContent"><span class="FoeIndex">3.</span> El sistema muestra el formulario de inicio de sesión</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td class="TableCellSpaceHolder10Px">
@@ -796,73 +796,67 @@ Profesional			</td>
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">3.</span> El usuario selecciona la opción "Soy parte de NaiApp"</span>			</td>
+<span class="TableContent"><span class="FoeIndex">3.</span> El sistema muestra el formulario de inicio de sesión</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">4.</span> El sistema muestra el formulario de inicio de sesión</span>			</td>
+<span class="TableContent"><span class="FoeIndex">4.</span> El usuario ingresa sus credenciales (correo y contraseña)</span>			</td>
 		</tr>
 		<tr class="TableRow1">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">5.</span> El usuario ingresa sus credenciales (correo y contraseña)</span>			</td>
+<span class="TableContent"><span class="FoeIndex">5.</span> El sistema valida la información</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">6.</span> El sistema valida la información</span>			</td>
+<span class="TableContent"><span class="FoeIndex">6.</span> <span class="FoeControl">if</span> el formulario está incompleto o las credenciales no son correctas</span>			</td>
 		</tr>
 		<tr class="TableRow1">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">7.</span> <span class="FoeControl">if</span> el formulario setá incompleto o las credenciales no son correctas</span>			</td>
+<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">6.1.</span> el sistema arroja mensaje de error y pide volver a intentar</span>			</td>
 		</tr>
 		<tr class="TableRow2">
-			<td class="TableCellSpaceHolder10Px">
-			</td>
-			<td>
-<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">7.1.</span> el sistema arroja mensaje de error y pide volver a intentar</span>			</td>
-		</tr>
-		<tr class="TableRow1">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
 <span class="TableContent">&nbsp;&nbsp; <span class="FoeControl">end if</span></span>			</td>
 		</tr>
-		<tr class="TableRow2">
-			<td class="TableCellSpaceHolder10Px">
-			</td>
-			<td>
-<span class="TableContent"><span class="FoeIndex">8.</span> <span class="FoeControl">if</span> el usuario olvida su contraseña</span>			</td>
-		</tr>
 		<tr class="TableRow1">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">8.1.</span> el sistema envia correo de recuperación</span>			</td>
+<span class="TableContent"><span class="FoeIndex">7.</span> <span class="FoeControl">if</span> el usuario olvida su contraseña</span>			</td>
 		</tr>
 		<tr class="TableRow2">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">8.2.</span> el usuario restablece su contraseña </span>			</td>
+<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">7.1.</span> el sistema envia correo de recuperación</span>			</td>
 		</tr>
 		<tr class="TableRow1">
+			<td class="TableCellSpaceHolder10Px">
+			</td>
+			<td>
+<span class="TableContent">&nbsp;&nbsp;&nbsp;&nbsp;<span class="FoeIndex">7.2.</span> el usuario restablece su contraseña </span>			</td>
+		</tr>
+		<tr class="TableRow2">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
 <span class="TableContent">&nbsp;&nbsp; <span class="FoeControl">end if</span></span>			</td>
 		</tr>
-		<tr class="TableRow2">
+		<tr class="TableRow1">
 			<td class="TableCellSpaceHolder10Px">
 			</td>
 			<td>
-<span class="TableContent"><span class="FoeIndex">9.</span> El usuario accede como empleado</span>			</td>
+<span class="TableContent"><span class="FoeIndex">8.</span> El usuario accede como empleado</span>			</td>
 		</tr>
 	</table>
 	<table border="0" cellpadding="0" width="100%" cellspacing="0">
